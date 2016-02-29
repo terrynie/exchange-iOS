@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE240CA81C840BB200E05B31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CA71C840BB200E05B31 /* main.m */; };
+		DE240CAB1C840BB200E05B31 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CAA1C840BB200E05B31 /* AppDelegate.m */; };
+		DE240CAE1C840BB200E05B31 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CAD1C840BB200E05B31 /* ViewController.m */; };
+		DE240CB11C840BB200E05B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE240CAF1C840BB200E05B31 /* Main.storyboard */; };
+		DE240CB31C840BB200E05B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE240CB21C840BB200E05B31 /* Assets.xcassets */; };
+		DE240CB61C840BB200E05B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE240CB41C840BB200E05B31 /* LaunchScreen.storyboard */; };
+		DE240CC11C840BB200E05B31 /* realtimeExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CC01C840BB200E05B31 /* realtimeExchangeTests.m */; };
+		DE240CCC1C840BB200E05B31 /* realtimeExchangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CCB1C840BB200E05B31 /* realtimeExchangeUITests.m */; };
+		DE240CDE1C8448B400E05B31 /* FirstUseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CDD1C8448B400E05B31 /* FirstUseController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE240CBD1C840BB200E05B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE240C9B1C840BB200E05B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE240CA21C840BB200E05B31;
+			remoteInfo = realtimeExchange;
+		};
+		DE240CC81C840BB200E05B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE240C9B1C840BB200E05B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE240CA21C840BB200E05B31;
+			remoteInfo = realtimeExchange;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE240CA31C840BB200E05B31 /* realtimeExchange.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = realtimeExchange.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE240CA71C840BB200E05B31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE240CA91C840BB200E05B31 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DE240CAA1C840BB200E05B31 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DE240CAC1C840BB200E05B31 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DE240CAD1C840BB200E05B31 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DE240CB01C840BB200E05B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE240CB21C840BB200E05B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE240CB51C840BB200E05B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE240CB71C840BB200E05B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE240CBC1C840BB200E05B31 /* realtimeExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realtimeExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE240CC01C840BB200E05B31 /* realtimeExchangeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realtimeExchangeTests.m; sourceTree = "<group>"; };
+		DE240CC21C840BB200E05B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE240CC71C840BB200E05B31 /* realtimeExchangeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = realtimeExchangeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE240CCB1C840BB200E05B31 /* realtimeExchangeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = realtimeExchangeUITests.m; sourceTree = "<group>"; };
+		DE240CCD1C840BB200E05B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE240CDC1C8448B400E05B31 /* FirstUseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstUseController.h; sourceTree = "<group>"; };
+		DE240CDD1C8448B400E05B31 /* FirstUseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstUseController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE240CA01C840BB200E05B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE240CB91C840BB200E05B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE240CC41C840BB200E05B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE240C9A1C840BB200E05B31 = {
+			isa = PBXGroup;
+			children = (
+				DE240CA51C840BB200E05B31 /* realtimeExchange */,
+				DE240CBF1C840BB200E05B31 /* realtimeExchangeTests */,
+				DE240CCA1C840BB200E05B31 /* realtimeExchangeUITests */,
+				DE240CA41C840BB200E05B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE240CA41C840BB200E05B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE240CA31C840BB200E05B31 /* realtimeExchange.app */,
+				DE240CBC1C840BB200E05B31 /* realtimeExchangeTests.xctest */,
+				DE240CC71C840BB200E05B31 /* realtimeExchangeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE240CA51C840BB200E05B31 /* realtimeExchange */ = {
+			isa = PBXGroup;
+			children = (
+				DE240CA91C840BB200E05B31 /* AppDelegate.h */,
+				DE240CAA1C840BB200E05B31 /* AppDelegate.m */,
+				DE240CDC1C8448B400E05B31 /* FirstUseController.h */,
+				DE240CDD1C8448B400E05B31 /* FirstUseController.m */,
+				DE240CAC1C840BB200E05B31 /* ViewController.h */,
+				DE240CAD1C840BB200E05B31 /* ViewController.m */,
+				DE240CAF1C840BB200E05B31 /* Main.storyboard */,
+				DE240CB21C840BB200E05B31 /* Assets.xcassets */,
+				DE240CB41C840BB200E05B31 /* LaunchScreen.storyboard */,
+				DE240CB71C840BB200E05B31 /* Info.plist */,
+				DE240CA61C840BB200E05B31 /* Supporting Files */,
+			);
+			path = realtimeExchange;
+			sourceTree = "<group>";
+		};
+		DE240CA61C840BB200E05B31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE240CA71C840BB200E05B31 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE240CBF1C840BB200E05B31 /* realtimeExchangeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE240CC01C840BB200E05B31 /* realtimeExchangeTests.m */,
+				DE240CC21C840BB200E05B31 /* Info.plist */,
+			);
+			path = realtimeExchangeTests;
+			sourceTree = "<group>";
+		};
+		DE240CCA1C840BB200E05B31 /* realtimeExchangeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE240CCB1C840BB200E05B31 /* realtimeExchangeUITests.m */,
+				DE240CCD1C840BB200E05B31 /* Info.plist */,
+			);
+			path = realtimeExchangeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE240CA21C840BB200E05B31 /* realtimeExchange */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE240CD01C840BB200E05B31 /* Build configuration list for PBXNativeTarget "realtimeExchange" */;
+			buildPhases = (
+				DE240C9F1C840BB200E05B31 /* Sources */,
+				DE240CA01C840BB200E05B31 /* Frameworks */,
+				DE240CA11C840BB200E05B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = realtimeExchange;
+			productName = realtimeExchange;
+			productReference = DE240CA31C840BB200E05B31 /* realtimeExchange.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE240CBB1C840BB200E05B31 /* realtimeExchangeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE240CD31C840BB200E05B31 /* Build configuration list for PBXNativeTarget "realtimeExchangeTests" */;
+			buildPhases = (
+				DE240CB81C840BB200E05B31 /* Sources */,
+				DE240CB91C840BB200E05B31 /* Frameworks */,
+				DE240CBA1C840BB200E05B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE240CBE1C840BB200E05B31 /* PBXTargetDependency */,
+			);
+			name = realtimeExchangeTests;
+			productName = realtimeExchangeTests;
+			productReference = DE240CBC1C840BB200E05B31 /* realtimeExchangeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE240CC61C840BB200E05B31 /* realtimeExchangeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE240CD61C840BB200E05B31 /* Build configuration list for PBXNativeTarget "realtimeExchangeUITests" */;
+			buildPhases = (
+				DE240CC31C840BB200E05B31 /* Sources */,
+				DE240CC41C840BB200E05B31 /* Frameworks */,
+				DE240CC51C840BB200E05B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE240CC91C840BB200E05B31 /* PBXTargetDependency */,
+			);
+			name = realtimeExchangeUITests;
+			productName = realtimeExchangeUITests;
+			productReference = DE240CC71C840BB200E05B31 /* realtimeExchangeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE240C9B1C840BB200E05B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Terry;
+				TargetAttributes = {
+					DE240CA21C840BB200E05B31 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y2MPQGLV27;
+					};
+					DE240CBB1C840BB200E05B31 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y2MPQGLV27;
+						TestTargetID = DE240CA21C840BB200E05B31;
+					};
+					DE240CC61C840BB200E05B31 = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Y2MPQGLV27;
+						TestTargetID = DE240CA21C840BB200E05B31;
+					};
+				};
+			};
+			buildConfigurationList = DE240C9E1C840BB200E05B31 /* Build configuration list for PBXProject "realtimeExchange" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE240C9A1C840BB200E05B31;
+			productRefGroup = DE240CA41C840BB200E05B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE240CA21C840BB200E05B31 /* realtimeExchange */,
+				DE240CBB1C840BB200E05B31 /* realtimeExchangeTests */,
+				DE240CC61C840BB200E05B31 /* realtimeExchangeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE240CA11C840BB200E05B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE240CB61C840BB200E05B31 /* LaunchScreen.storyboard in Resources */,
+				DE240CB31C840BB200E05B31 /* Assets.xcassets in Resources */,
+				DE240CB11C840BB200E05B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE240CBA1C840BB200E05B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE240CC51C840BB200E05B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE240C9F1C840BB200E05B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE240CDE1C8448B400E05B31 /* FirstUseController.m in Sources */,
+				DE240CAE1C840BB200E05B31 /* ViewController.m in Sources */,
+				DE240CAB1C840BB200E05B31 /* AppDelegate.m in Sources */,
+				DE240CA81C840BB200E05B31 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE240CB81C840BB200E05B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE240CC11C840BB200E05B31 /* realtimeExchangeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE240CC31C840BB200E05B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE240CCC1C840BB200E05B31 /* realtimeExchangeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE240CBE1C840BB200E05B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE240CA21C840BB200E05B31 /* realtimeExchange */;
+			targetProxy = DE240CBD1C840BB200E05B31 /* PBXContainerItemProxy */;
+		};
+		DE240CC91C840BB200E05B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE240CA21C840BB200E05B31 /* realtimeExchange */;
+			targetProxy = DE240CC81C840BB200E05B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE240CAF1C840BB200E05B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE240CB01C840BB200E05B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE240CB41C840BB200E05B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE240CB51C840BB200E05B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE240CCE1C840BB200E05B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE240CCF1C840BB200E05B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE240CD11C840BB200E05B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = realtimeExchange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terry.realtimeExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE240CD21C840BB200E05B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = realtimeExchange/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terry.realtimeExchange;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DE240CD41C840BB200E05B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = realtimeExchangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terry.realtimeExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realtimeExchange.app/realtimeExchange";
+			};
+			name = Debug;
+		};
+		DE240CD51C840BB200E05B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = realtimeExchangeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terry.realtimeExchangeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/realtimeExchange.app/realtimeExchange";
+			};
+			name = Release;
+		};
+		DE240CD71C840BB200E05B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = realtimeExchangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terry.realtimeExchangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = realtimeExchange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DE240CD81C840BB200E05B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = realtimeExchangeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.terry.realtimeExchangeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = realtimeExchange;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE240C9E1C840BB200E05B31 /* Build configuration list for PBXProject "realtimeExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE240CCE1C840BB200E05B31 /* Debug */,
+				DE240CCF1C840BB200E05B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE240CD01C840BB200E05B31 /* Build configuration list for PBXNativeTarget "realtimeExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE240CD11C840BB200E05B31 /* Debug */,
+				DE240CD21C840BB200E05B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE240CD31C840BB200E05B31 /* Build configuration list for PBXNativeTarget "realtimeExchangeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE240CD41C840BB200E05B31 /* Debug */,
+				DE240CD51C840BB200E05B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DE240CD61C840BB200E05B31 /* Build configuration list for PBXNativeTarget "realtimeExchangeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE240CD71C840BB200E05B31 /* Debug */,
+				DE240CD81C840BB200E05B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE240C9B1C840BB200E05B31 /* Project object */;
+}
