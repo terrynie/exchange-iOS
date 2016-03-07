@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstUseController : UIViewController
+@interface FirstUseController : UIViewController <UIScrollViewDelegate>
+@property(nonatomic, retain) UIScrollView *sv;
 
 @end
