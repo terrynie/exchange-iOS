@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+@protocol TNBottomDelegate;
 
 @interface ViewController : UIViewController
 

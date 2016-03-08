@@ -34,7 +34,7 @@
     if ([account isEqualToString:@""]) {
         //提示输入账号
         [_alert setHidden:NO];
-        NSTimer *timer = [NSTimer scheduledTimerWithTimeInterval:2.0 target:self selector:@selector(hidden) userInfo:nil repeats:NO];
+        [_alert performSelector:@selector(hidden) withObject:self afterDelay:2.0];
         
     }else{
         if([password isEqualToString:@""]){
@@ -43,7 +43,10 @@
             [_alert setHidden:NO];
         } else {
             //登录
-            NSString *urlStr = [NSString stringWithFormat:@""];
+            NSString *urlStr = [NSString stringWithFormat:@"http://119.29.156.162:8000/login?username=%@&password=%@",account,password];
+            NSURL *url = [NSURL URLWithString:urlStr];
+            NSString *result = [NSString stringWithContentsOfURL:url encoding:NSUTF8StringEncoding error:nil];
+            NSLog(@"%@",result);
         }
     }
 }
@@ -58,14 +61,5 @@
     [_alert setHidden:YES];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

@@ -16,6 +16,10 @@
 		DE240CC11C840BB200E05B31 /* realtimeExchangeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CC01C840BB200E05B31 /* realtimeExchangeTests.m */; };
 		DE240CCC1C840BB200E05B31 /* realtimeExchangeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CCB1C840BB200E05B31 /* realtimeExchangeUITests.m */; };
 		DE240CDE1C8448B400E05B31 /* FirstUseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE240CDD1C8448B400E05B31 /* FirstUseController.m */; };
+		DE4DC5A01C8EE6BD00F426BF /* TNBottomController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DC59F1C8EE6BD00F426BF /* TNBottomController.m */; };
+		DE4DC5A21C8F081700F426BF /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4DC5A11C8F081700F426BF /* BottomView.xib */; };
+		DE4DC5A41C8F181E00F426BF /* TNContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4DC5A31C8F181E00F426BF /* TNContentView.xib */; };
+		DE4DC5A61C8F1FBC00F426BF /* BottomCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4DC5A51C8F1FBC00F426BF /* BottomCellView.xib */; };
 		DE6521AC1C8C1DDC00FA48A6 /* BottomCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6521AB1C8C1DDC00FA48A6 /* BottomCellView.m */; };
 		DE6521AF1C8C1DFA00FA48A6 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6521AE1C8C1DFA00FA48A6 /* BottomView.m */; };
 		DE914C8F1C8C76440065B5F4 /* TNContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE914C8E1C8C76440065B5F4 /* TNContentView.m */; };
@@ -59,6 +63,11 @@
 		DE240CCD1C840BB200E05B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE240CDC1C8448B400E05B31 /* FirstUseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstUseController.h; path = realtimeExchange/FirstUseController.h; sourceTree = "<group>"; };
 		DE240CDD1C8448B400E05B31 /* FirstUseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstUseController.m; path = realtimeExchange/FirstUseController.m; sourceTree = "<group>"; };
+		DE4DC59E1C8EE6BD00F426BF /* TNBottomController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNBottomController.h; sourceTree = "<group>"; };
+		DE4DC59F1C8EE6BD00F426BF /* TNBottomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNBottomController.m; sourceTree = "<group>"; };
+		DE4DC5A11C8F081700F426BF /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
+		DE4DC5A31C8F181E00F426BF /* TNContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TNContentView.xib; sourceTree = "<group>"; };
+		DE4DC5A51C8F1FBC00F426BF /* BottomCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomCellView.xib; sourceTree = "<group>"; };
 		DE6521AA1C8C1DDC00FA48A6 /* BottomCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomCellView.h; sourceTree = "<group>"; };
 		DE6521AB1C8C1DDC00FA48A6 /* BottomCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomCellView.m; sourceTree = "<group>"; };
 		DE6521AD1C8C1DFA00FA48A6 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
@@ -67,7 +76,7 @@
 		DE914C8E1C8C76440065B5F4 /* TNContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNContentView.m; sourceTree = "<group>"; };
 		DE914C921C8C7F320065B5F4 /* TNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNLoginViewController.h; sourceTree = "<group>"; };
 		DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNLoginViewController.m; sourceTree = "<group>"; };
-		DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TNLoginViewController.xib; sourceTree = "<group>"; };
+		DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TNLoginViewController.xib; path = ../TNLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				DE240CAF1C840BB200E05B31 /* Main.storyboard */,
+				DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */,
 				DE240CB21C840BB200E05B31 /* Assets.xcassets */,
 				DE240CB41C840BB200E05B31 /* LaunchScreen.storyboard */,
 				DE240CB71C840BB200E05B31 /* Info.plist */,
@@ -167,7 +177,8 @@
 				DE240CAD1C840BB200E05B31 /* ViewController.m */,
 				DE914C921C8C7F320065B5F4 /* TNLoginViewController.h */,
 				DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */,
-				DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */,
+				DE4DC59E1C8EE6BD00F426BF /* TNBottomController.h */,
+				DE4DC59F1C8EE6BD00F426BF /* TNBottomController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -177,9 +188,12 @@
 			children = (
 				DE6521AA1C8C1DDC00FA48A6 /* BottomCellView.h */,
 				DE6521AB1C8C1DDC00FA48A6 /* BottomCellView.m */,
+				DE4DC5A51C8F1FBC00F426BF /* BottomCellView.xib */,
 				DE6521AD1C8C1DFA00FA48A6 /* BottomView.h */,
 				DE6521AE1C8C1DFA00FA48A6 /* BottomView.m */,
+				DE4DC5A11C8F081700F426BF /* BottomView.xib */,
 				DE914C8D1C8C76440065B5F4 /* TNContentView.h */,
+				DE4DC5A31C8F181E00F426BF /* TNContentView.xib */,
 				DE914C8E1C8C76440065B5F4 /* TNContentView.m */,
 			);
 			name = View;
@@ -301,6 +315,9 @@
 			files = (
 				DE240CB61C840BB200E05B31 /* LaunchScreen.storyboard in Resources */,
 				DE240CB31C840BB200E05B31 /* Assets.xcassets in Resources */,
+				DE4DC5A41C8F181E00F426BF /* TNContentView.xib in Resources */,
+				DE4DC5A61C8F1FBC00F426BF /* BottomCellView.xib in Resources */,
+				DE4DC5A21C8F081700F426BF /* BottomView.xib in Resources */,
 				DE240CB11C840BB200E05B31 /* Main.storyboard in Resources */,
 				DE914C961C8C7F320065B5F4 /* TNLoginViewController.xib in Resources */,
 			);
@@ -333,6 +350,7 @@
 				DE240CAB1C840BB200E05B31 /* AppDelegate.m in Sources */,
 				DE914C951C8C7F320065B5F4 /* TNLoginViewController.m in Sources */,
 				DE914C8F1C8C76440065B5F4 /* TNContentView.m in Sources */,
+				DE4DC5A01C8EE6BD00F426BF /* TNBottomController.m in Sources */,
 				DE240CA81C840BB200E05B31 /* main.m in Sources */,
 				DE6521AF1C8C1DFA00FA48A6 /* BottomView.m in Sources */,
 			);

@@ -9,37 +9,34 @@
 #import "BottomView.h"
 #import "BottomCellView.h"
 
-@interface BottomView ()
+@protocol BottomViewDelegate <NSObject>
 
-@property(nonatomic, retain) BottomCellView *exchange;
-@property(nonatomic, retain) BottomCellView *calculator;
-@property(nonatomic, retain) BottomCellView *attention;
-@property(nonatomic, retain) BottomCellView *user;
+-(void)exchange;
+-(void)calculator;
+-(void)like;
+-(void)user;
+
+@end
+
+@interface BottomView ()
+@property(nonatomic, retain) BottomCellView *exchangeView;
+@property(nonatomic, retain) BottomCellView *calculatorView;
+@property(nonatomic, retain) BottomCellView *likeView;
+@property(nonatomic, retain) BottomCellView *userView;
 @end
 
 @implementation BottomView
-
--(instancetype)initWithFrame:(CGRect)frame {
-    if (self=[super initWithFrame:frame]) {
-        CGFloat width = self.frame.size.width;
-        CGFloat height = self.frame.size.height;
-        CGFloat cellWidth = width*0.25;
-        //创建底部按钮并添加到父视图中
-        [self addSubview:_exchange = [BottomCellView bottomCellView]];
-        [self addSubview:_calculator = [BottomCellView bottomCellView]];
-        [self addSubview:_attention = [BottomCellView bottomCellView]];
-        [self addSubview:_user = [BottomCellView bottomCellView]];
-        //设置底部按钮视图的大小
-        _exchange.frame = CGRectMake(0, 0, cellWidth, height);
-        _calculator.frame = CGRectMake(cellWidth, 0, cellWidth, height);
-        _attention.frame = CGRectMake(cellWidth*2, 0, cellWidth, height);
-        _user.frame = CGRectMake(cellWidth*3, 0, cellWidth, height);
+- (instancetype)initWithFrame:(CGRect)frame {
+    if (self = [super initWithFrame:frame]) {
+        CGRect temp = CGRectMake(0, 488, self.frame.size.width, self.frame.size.height);
+        self.frame = temp;
+        UIView *bottomView = [[[NSBundle mainBundle] loadNibNamed:@"BottomView" owner:nil options:nil] lastObject];
+        [self addSubview:bottomView];
     }
     return self;
 }
 
-//切换菜单
--(void)changeMenu {
+- (void)exchange {
     
 }
 

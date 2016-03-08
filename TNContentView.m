@@ -7,6 +7,7 @@
 //
 
 #import "TNContentView.h"
+#import "BottomView.h"
 
 @implementation TNContentView
 
@@ -22,4 +23,8 @@
     return [[self alloc] initWithFrame:frame];
 }
 
+
+-(void)changeContentView {
+    
+}
 @end

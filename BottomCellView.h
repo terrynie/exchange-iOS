@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 @interface BottomCellView : UIButton
+@property(nonatomic, retain) UIImage *image;
+@property(nonatomic, retain) UILabel *label;
 
 + (instancetype)bottomCellView;
 @end
