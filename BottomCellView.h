@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-@interface BottomCellView : UIButton
+@interface BottomCellView : UIView
 @property(nonatomic, retain) UIImage *image;
 @property(nonatomic, retain) UILabel *label;
 

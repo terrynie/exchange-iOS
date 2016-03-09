@@ -29,7 +29,7 @@
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <connections>
                 <outlet property="icon" destination="p2a-t7-6bG" id="R6R-Zr-kX8"/>
-                <outlet property="label" destination="Poj-Vv-tan" id="itD-ct-fno"/>
+                <outlet property="label" destination="Poj-Vv-tan" id="Hkz-VF-uRr"/>
             </connections>
         </view>
     </objects>

@@ -9,12 +9,6 @@
 #import "BottomCellView.h"
 
 @interface BottomCellView ()
-//小图标
-@property (weak, nonatomic) IBOutlet UIImageView *icon;
-
-//文字
-@property (weak, nonatomic) IBOutlet UILabel *label;
-
 
 @end
 
@@ -26,7 +20,7 @@
 
 +(instancetype)bottomCellViewWithImage:(UIImage *)image andLabel:(UILabel *)label {
     BottomCellView *bw = [[self alloc] init];
-    [bw setIcon:image];
+//    [bw setIcon:image];
     [bw setLabel:label];
     return bw;
 }
@@ -43,5 +37,9 @@
 - (void)setActionWithSelector:(SEL)selector {
     UITapGestureRecognizer *tapGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:selector];
     [self addGestureRecognizer:tapGesture];
+}
+
+- (void)setImage:(UIImage *)image {
+    
 }
 @end
