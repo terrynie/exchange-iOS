@@ -19,12 +19,11 @@
 		DE4DC5A01C8EE6BD00F426BF /* TNBottomController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4DC59F1C8EE6BD00F426BF /* TNBottomController.m */; };
 		DE4DC5A21C8F081700F426BF /* BottomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4DC5A11C8F081700F426BF /* BottomView.xib */; };
 		DE4DC5A41C8F181E00F426BF /* TNContentView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4DC5A31C8F181E00F426BF /* TNContentView.xib */; };
-		DE4DC5A61C8F1FBC00F426BF /* BottomCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE4DC5A51C8F1FBC00F426BF /* BottomCellView.xib */; };
+		DE5655D31C91C5E900292446 /* TNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE5655D21C91C5E900292446 /* TNLoginViewController.xib */; };
 		DE6521AC1C8C1DDC00FA48A6 /* BottomCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6521AB1C8C1DDC00FA48A6 /* BottomCellView.m */; };
 		DE6521AF1C8C1DFA00FA48A6 /* BottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE6521AE1C8C1DFA00FA48A6 /* BottomView.m */; };
 		DE914C8F1C8C76440065B5F4 /* TNContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE914C8E1C8C76440065B5F4 /* TNContentView.m */; };
 		DE914C951C8C7F320065B5F4 /* TNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */; };
-		DE914C961C8C7F320065B5F4 /* TNLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,7 +66,7 @@
 		DE4DC59F1C8EE6BD00F426BF /* TNBottomController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNBottomController.m; sourceTree = "<group>"; };
 		DE4DC5A11C8F081700F426BF /* BottomView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomView.xib; sourceTree = "<group>"; };
 		DE4DC5A31C8F181E00F426BF /* TNContentView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TNContentView.xib; sourceTree = "<group>"; };
-		DE4DC5A51C8F1FBC00F426BF /* BottomCellView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BottomCellView.xib; sourceTree = "<group>"; };
+		DE5655D21C91C5E900292446 /* TNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TNLoginViewController.xib; sourceTree = "<group>"; };
 		DE6521AA1C8C1DDC00FA48A6 /* BottomCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomCellView.h; sourceTree = "<group>"; };
 		DE6521AB1C8C1DDC00FA48A6 /* BottomCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomCellView.m; sourceTree = "<group>"; };
 		DE6521AD1C8C1DFA00FA48A6 /* BottomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomView.h; sourceTree = "<group>"; };
@@ -76,7 +75,6 @@
 		DE914C8E1C8C76440065B5F4 /* TNContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNContentView.m; sourceTree = "<group>"; };
 		DE914C921C8C7F320065B5F4 /* TNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNLoginViewController.h; sourceTree = "<group>"; };
 		DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNLoginViewController.m; sourceTree = "<group>"; };
-		DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TNLoginViewController.xib; path = ../TNLoginViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,8 +138,8 @@
 		DE240CA61C840BB200E05B31 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DE5655D21C91C5E900292446 /* TNLoginViewController.xib */,
 				DE240CAF1C840BB200E05B31 /* Main.storyboard */,
-				DE914C941C8C7F320065B5F4 /* TNLoginViewController.xib */,
 				DE240CB21C840BB200E05B31 /* Assets.xcassets */,
 				DE240CB41C840BB200E05B31 /* LaunchScreen.storyboard */,
 				DE240CB71C840BB200E05B31 /* Info.plist */,
@@ -188,7 +186,6 @@
 			children = (
 				DE6521AA1C8C1DDC00FA48A6 /* BottomCellView.h */,
 				DE6521AB1C8C1DDC00FA48A6 /* BottomCellView.m */,
-				DE4DC5A51C8F1FBC00F426BF /* BottomCellView.xib */,
 				DE6521AD1C8C1DFA00FA48A6 /* BottomView.h */,
 				DE6521AE1C8C1DFA00FA48A6 /* BottomView.m */,
 				DE4DC5A11C8F081700F426BF /* BottomView.xib */,
@@ -313,13 +310,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE5655D31C91C5E900292446 /* TNLoginViewController.xib in Resources */,
 				DE240CB61C840BB200E05B31 /* LaunchScreen.storyboard in Resources */,
 				DE240CB31C840BB200E05B31 /* Assets.xcassets in Resources */,
 				DE4DC5A41C8F181E00F426BF /* TNContentView.xib in Resources */,
-				DE4DC5A61C8F1FBC00F426BF /* BottomCellView.xib in Resources */,
 				DE4DC5A21C8F081700F426BF /* BottomView.xib in Resources */,
 				DE240CB11C840BB200E05B31 /* Main.storyboard in Resources */,
-				DE914C961C8C7F320065B5F4 /* TNLoginViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
