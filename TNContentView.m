@@ -7,7 +7,6 @@
 //
 
 #import "TNContentView.h"
-#import "BottomView.h"
 
 @implementation TNContentView
 

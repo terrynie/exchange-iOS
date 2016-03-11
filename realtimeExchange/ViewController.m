@@ -7,14 +7,13 @@
 //
 
 #import "ViewController.h"
-#import "BottomView.h"
 #import "TNContentView.h"
 #import "TNLoginViewController.h"
-
+#import "TNBottomView.h"
 
 @interface ViewController ()
 @property(nonatomic, retain) TNContentView *content;
-@property(nonatomic, retain) BottomView *bottom;
+@property(nonatomic, retain) TNBottomView *bottomView;
 @end
 
 @implementation ViewController
@@ -31,13 +30,22 @@
     _content.backgroundColor = [UIColor grayColor];
     [self.view addSubview:_content];
     
-    //创建底部栏
-    _bottom = [[BottomView alloc] init];
-    [self.view addSubview:_bottom];
+    
+    //创建底部选择栏
+    _bottomView = [[TNBottomView alloc] init];
+    _bottomView.delegate = self;
+    [self.view addSubview:_bottomView];
+
 
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
 }
+
+//点击底部按钮是更换上部视图
+-(void)changeContent:(int)whichContent {
+    NSLog(@"%d",whichContent);
+}
+
 @end

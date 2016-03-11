@@ -7,10 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-@protocol TNBottomDelegate;
+#import "TNBottomView.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <BottomDelegate>
 
 @end
 
