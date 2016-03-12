@@ -10,6 +10,7 @@
 #import "TNContentView.h"
 #import "TNLoginViewController.h"
 #import "TNBottomView.h"
+#import "TNCurrency.h"
 
 @interface ViewController ()
 @property(nonatomic, retain) TNContentView *content;
@@ -21,8 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    CGFloat width = self.view.frame.size.width;
-    CGFloat height = self.view.frame.size.height;
+    CGFloat width = self.view.bounds.size.width;
+    CGFloat height = self.view.bounds.size.height;
     
     
     //创建主内容区域
@@ -37,6 +38,12 @@
     [self.view addSubview:_bottomView];
 
 
+    NSString *urlStr = [NSString stringWithFormat:@"http://119.29.156.162:8000/exchange?bank=中国银行&currency=日元"];
+    NSString *encoding = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    NSURL *url = [NSURL URLWithString:encoding];
+    NSData *data = [NSData dataWithContentsOfURL:url options:NSDataReadingUncached error:nil];
+    TNCurrency *currency = [TNCurrency currencyWithData:data];
+    NSLog(@"%@",currency);
 }
 
 - (void)didReceiveMemoryWarning {

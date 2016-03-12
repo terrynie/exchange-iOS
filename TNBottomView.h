@@ -10,9 +10,10 @@
 
 //协议，通过本协议实现更换主界面视图
 @protocol BottomDelegate<NSObject>
+@required
 - (void) changeContent:(int) whichContent;
 @end
 
-@interface TNBottomView : UIView<BottomDelegate>
-@property(nonatomic, assign) id<BottomDelegate> delegate;
+@interface TNBottomView : UIView
+@property(nonatomic, weak) id<BottomDelegate> delegate;
 @end
