@@ -32,18 +32,22 @@
     [self.view addSubview:_content];
     
     
+    
+    
     //创建底部选择栏
     _bottomView = [[TNBottomView alloc] init];
     _bottomView.delegate = self;
     [self.view addSubview:_bottomView];
+    
+    
 
 
-    NSString *urlStr = [NSString stringWithFormat:@"http://119.29.156.162:8000/exchange?bank=中国银行&currency=日元"];
-    NSString *encoding = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
-    NSURL *url = [NSURL URLWithString:encoding];
-    NSData *data = [NSData dataWithContentsOfURL:url options:NSDataReadingUncached error:nil];
-    TNCurrency *currency = [TNCurrency currencyWithData:data];
-    NSLog(@"%@",currency);
+//    NSString *urlStr = [NSString stringWithFormat:@"http://119.29.156.162:8000/exchange?bank=中国银行&currency=日元"];
+//    NSString *encoding = [urlStr stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+//    NSURL *url = [NSURL URLWithString:encoding];
+//    NSData *data = [NSData dataWithContentsOfURL:url options:NSDataReadingUncached error:nil];
+//    TNCurrency *currency = [TNCurrency currencyWithData:data];
+//    NSLog(@"%@",currency);
 }
 
 - (void)didReceiveMemoryWarning {

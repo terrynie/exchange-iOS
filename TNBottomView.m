@@ -58,6 +58,7 @@
     [self.delegate changeContent:whichContent];
 }
 
+//点击按钮，改变相关按钮的属性
 -(void)changeStatus:(id)sender {
     for (UIButton *button in self.subviews) {
         if (button == sender) {

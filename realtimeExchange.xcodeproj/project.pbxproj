@@ -24,6 +24,8 @@
 		DE5FFF2C1C92F07C003E5E24 /* TNCurrency.m in Sources */ = {isa = PBXBuildFile; fileRef = DE5FFF2B1C92F07C003E5E24 /* TNCurrency.m */; };
 		DE914C8F1C8C76440065B5F4 /* TNContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE914C8E1C8C76440065B5F4 /* TNContentView.m */; };
 		DE914C951C8C7F320065B5F4 /* TNLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */; };
+		DEF471FF1C986905000FFB9C /* ExchangeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF471FE1C986905000FFB9C /* ExchangeCell.xib */; };
+		DEF472051C986BFA000FFB9C /* TNExchangeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF472041C986BFA000FFB9C /* TNExchangeCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +77,9 @@
 		DE914C8E1C8C76440065B5F4 /* TNContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNContentView.m; sourceTree = "<group>"; };
 		DE914C921C8C7F320065B5F4 /* TNLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNLoginViewController.h; sourceTree = "<group>"; };
 		DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNLoginViewController.m; sourceTree = "<group>"; };
+		DEF471FE1C986905000FFB9C /* ExchangeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExchangeCell.xib; sourceTree = "<group>"; };
+		DEF472031C986BFA000FFB9C /* TNExchangeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TNExchangeCell.h; sourceTree = "<group>"; };
+		DEF472041C986BFA000FFB9C /* TNExchangeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TNExchangeCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +180,8 @@
 				DE240CAD1C840BB200E05B31 /* ViewController.m */,
 				DE914C921C8C7F320065B5F4 /* TNLoginViewController.h */,
 				DE914C931C8C7F320065B5F4 /* TNLoginViewController.m */,
+				DEF472031C986BFA000FFB9C /* TNExchangeCell.h */,
+				DEF472041C986BFA000FFB9C /* TNExchangeCell.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -188,6 +195,7 @@
 				DE914C8E1C8C76440065B5F4 /* TNContentView.m */,
 				DE5FD6CA1C927DA200C19723 /* TNBottomView.h */,
 				DE5FD6CB1C927DA200C19723 /* TNBottomView.m */,
+				DEF471FE1C986905000FFB9C /* ExchangeCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -316,6 +324,7 @@
 				DE4DC5A41C8F181E00F426BF /* TNContentView.xib in Resources */,
 				DE4DC5A21C8F081700F426BF /* BottomView.xib in Resources */,
 				DE240CB11C840BB200E05B31 /* Main.storyboard in Resources */,
+				DEF471FF1C986905000FFB9C /* ExchangeCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +357,7 @@
 				DE914C951C8C7F320065B5F4 /* TNLoginViewController.m in Sources */,
 				DE914C8F1C8C76440065B5F4 /* TNContentView.m in Sources */,
 				DE5FFF2C1C92F07C003E5E24 /* TNCurrency.m in Sources */,
+				DEF472051C986BFA000FFB9C /* TNExchangeCell.m in Sources */,
 				DE240CA81C840BB200E05B31 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
