@@ -32,8 +32,21 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        
+        self  = [[[NSBundle mainBundle] loadNibNamed:@"ExchangeCell" owner:nil options:nil] lastObject];
     }
     return self;
+}
+
+//使用Currency创建cell
+- (instancetype)initWithCurrency:(TNCurrency *)currency {
+    self = [TNExchangeCell init];
+    
+    
+    return self;
+}
+
++ (instancetype)cellWithCurrency:(TNCurrency *)currency {
+    
+    return [[self alloc] initWithCurrency:currency];
 }
 @end

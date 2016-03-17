@@ -190,12 +190,12 @@
 			isa = PBXGroup;
 			children = (
 				DE4DC5A11C8F081700F426BF /* BottomView.xib */,
-				DE914C8D1C8C76440065B5F4 /* TNContentView.h */,
 				DE4DC5A31C8F181E00F426BF /* TNContentView.xib */,
+				DEF471FE1C986905000FFB9C /* ExchangeCell.xib */,
+				DE914C8D1C8C76440065B5F4 /* TNContentView.h */,
 				DE914C8E1C8C76440065B5F4 /* TNContentView.m */,
 				DE5FD6CA1C927DA200C19723 /* TNBottomView.h */,
 				DE5FD6CB1C927DA200C19723 /* TNBottomView.m */,
-				DEF471FE1C986905000FFB9C /* ExchangeCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";

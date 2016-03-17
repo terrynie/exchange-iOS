@@ -10,11 +10,8 @@
 @interface TNBottomView()
 @property (weak, nonatomic) IBOutlet UIButton *exchangeButton;
 @property (weak, nonatomic) IBOutlet UIButton *calculatorButton;
-@property (weak, nonatomic) IBOutlet UIButton *myLikedButton;
-@property (weak, nonatomic) IBOutlet UIButton *userCenterButton;
-
+@property (weak, nonatomic) IBOutlet UIButton *myLikedButton;@property (weak, nonatomic) IBOutlet UIButton *userCenterButton;
 @end
-
 @implementation TNBottomView
 - (instancetype)initWithFrame:(CGRect)frame {
     frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height*0.9, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height*0.15);
@@ -54,6 +51,7 @@
     //    NSLog(@"%@",[self.superview.subviews objectAtIndex:2]);
 }
 
+//通过代理想主页面内容栏发送更换内容的消息
 -(void)changeContent:(int)whichContent {
     [self.delegate changeContent:whichContent];
 }

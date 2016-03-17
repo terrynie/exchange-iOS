@@ -40,6 +40,7 @@
     [self.view addSubview:_bottomView];
     
     
+    
 
 
 //    NSString *urlStr = [NSString stringWithFormat:@"http://119.29.156.162:8000/exchange?bank=中国银行&currency=日元"];

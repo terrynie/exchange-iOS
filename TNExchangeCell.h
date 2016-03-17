@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+@class TNCurrency;
 
 @interface TNExchangeCell : UITableViewCell
-
+- (instancetype)initWithFrame:(CGRect)frame;
+- (instancetype)initWithCurrency:(TNCurrency *)currency;
++ (instancetype)cellWithCurrency:(TNCurrency *)currency;
 @end

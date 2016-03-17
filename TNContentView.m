@@ -22,8 +22,8 @@
     return [[self alloc] initWithFrame:frame];
 }
 
-
+//更换内容栏内容
 -(void)changeContentView {
-    
+    NSLog(@"%s",__func__);
 }
 @end
