@@ -15,9 +15,7 @@
 @implementation TNBottomView
 - (instancetype)initWithFrame:(CGRect)frame {
     frame = CGRectMake(0, [UIScreen mainScreen].bounds.size.height*0.9, [UIScreen mainScreen].bounds.size.width, [UIScreen mainScreen].bounds.size.height*0.15);
-//    for (UIButton *button in self.subviews) {
-//        [button setImage:<#(nullable UIImage *)#> forState:<#(UIControlState)#>]
-//    }
+
     [_exchangeButton setImage:[UIImage imageNamed:@"money-exchange"] forState:UIControlStateSelected];
     [_calculatorButton setImage:[UIImage imageNamed:@"calculator"] forState:UIControlStateSelected];
     [_myLikedButton setImage:[UIImage imageNamed:@"add-a-like"] forState:UIControlStateSelected];
@@ -27,14 +25,15 @@
     [_myLikedButton setImage:[UIImage imageNamed:@"add-a-like"] forState:UIControlStateDisabled];
     [_userCenterButton setImage:[UIImage imageNamed:@"user"] forState:UIControlStateDisabled];
     if (self = [super initWithFrame:frame]) {
-        NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"BottomView" owner:nil options:nil];
+        NSArray *views = [[NSBundle mainBundle] loadNibNamed:@"BottomView" owner:self options:nil];
         [self addSubview:[views lastObject]];
     }
     return self;
 }
 
 - (IBAction)exchange:(id)sender {
-    [self changeContent:110];
+//    [self changeContent:110];
+    [_delegate changeContent:110];
     [self changeStatus:sender];
 }
 
@@ -53,7 +52,7 @@
 
 //通过代理想主页面内容栏发送更换内容的消息
 -(void)changeContent:(int)whichContent {
-    [self.delegate changeContent:whichContent];
+    [_delegate changeContent:whichContent];
 }
 
 //点击按钮，改变相关按钮的属性

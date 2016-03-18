@@ -55,7 +55,7 @@
                 <outlet property="myLikedButton" destination="MoB-24-67I" id="cxv-Zs-7Q5"/>
                 <outlet property="userCenterButton" destination="VyF-gZ-zDt" id="RQS-hM-kRe"/>
             </connections>
-            <point key="canvasLocation" x="370" y="508"/>
+            <point key="canvasLocation" x="331" y="544"/>
         </view>
     </objects>
     <resources>

@@ -10,6 +10,6 @@
 #import "TNBottomView.h"
 
 @interface ViewController : UIViewController <BottomDelegate>
-
+-(void)changeContent:(int)whichContent;
 @end
 

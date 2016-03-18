@@ -7,13 +7,15 @@
 //
 
 #import "TNContentView.h"
+#import "TNExchangeCell.h"
+#import "TNCurrency.h"
 
 @implementation TNContentView
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        //不推荐这样用，但是这个只作为一个容器，只创建一次，暂且这样使用
         self.frame = frame;
+        
     }
     return self;
 }
